@@ -7,61 +7,53 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <style>
+       body{ 
+           padding: 30px;
+           position:relative;
+       }
+    </style>
 </head>
-<body>
+<body >
     <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <p>欣容牙醫</p>
-            </div>
-            <div class="col-lg-2">  
-                <ul class="nav nav-pills nav-stacked">  
-                    <li class="active"><a href="#">首頁</a></li>  
-                    <li><a href="#">診療項目</a></li>  
-                    <li><a href="#">醫療團隊 </a></li>  
-                    <li><a href="#">門診時間</a></li>   
-                </ul>  
-            </div>
-            <div class="row">  
-            <!-- Tab based Dropdowns -->  
-            <div class="col-lg-6">  
-                <ul class="nav nav-tabs">  
-                    <!-- TAB1 -->  
-                    <li class="active"><a href="#">Home</a></li>  
-                      
-                    <!-- TAB2 -->  
-                    <li><a href="#">About</a></li>  
-                      
-                    <!-- TAB3 -->  
-                    <!-- 封装一个下拉菜单 -->  
-                    <li class="dropdown">  
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">FrontEnd<b class="caret"></b></a>  
-                        <!-- 封装下拉项 ,pull-right指定下拉框靠左对齐-->  
-                        <ul class="dropdown-menu pull-left">  
-                            <li><a href="#">Twitter Bootstrap</a></li>    
-                            <li><a href="#">Google Plus API</a></li>    
-                            <li><a href="#">HTML5</a></li>   
-                            <!-- 分割线 -->   
-                            <li class="divider"></li>    
-                            <li><a href="#">Examples</a></li>   
-                        </ul>  
-                    </li>  
-                      
-                    <!-- TAB4 -->  
-                    <li class="dropdown">  
-                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">BackEnd<b class="caret"></b></a>  
-                        <!-- 下拉框靠右对齐 -->  
-                        <ul class="dropdown-menu pull-right">  
-                            <li><a href="#">PHP</a></li>  
-                            <li><a href="#">MySQL</a></li>  
-                            <li><a href="#">PostgreSQL</a></li>  
-                            <li class="divider"></li>  
-                            <li><a href="#">Live Demos</a></li>  
-                        </ul>  
-                    </li>  
-                </ul>  
-            </div> 
-    </div>  
+    <div class="row headbar">
+        <div class="col-md-3 col-md-offset-1">
+            <h1 style="font-size:10px">位於大同區擁有30年經驗植牙專科診所</h1>
+            <a href="https://wuandy1225.github.io/sinzoon/"><img src="logo.png"></a>
+    <p style="font-size:10px;margin-top:5px;color:#666;">台北市大同區重慶北路二段1樓</p>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-5">
+            <img src="http://www.27045858.com/assets/img/tel-top.png">
+            <img src="http://www.27045858.com/assets/img/schedule.png">
+        </div>
     </div>
+    <div class="row">
+        <div class="col-md-12">
+        <div style="width:auto;height:1px;margin:30px;padding:0px;background-color:#D5D5D5;overflow:hidden;"></div>
+        </div>
+    </div>
+        
+    <div class="row">
+        <div class="col-md-3">
+            <div class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix-top" role="complementary">
+                <ul class="nav bs-docs-sidenav">
+                        <li class="">
+                            <a href="#download">下載<!--Download--></a>
+                        </li>
+                        <li>
+                            <a href="#template">入門範本<!--Basic template--></a>
+                        </li>
+
+                        <li>
+                            <a href="#community">社群<!--Community--></a>
+                        </li>
+                    </ul>
+                <a class="back-to-top" href="#top">返回頂端<!--Back to top--></a>            
+            </div>
+        </div>
+    </div>
+    </div>  
+    
 </body>
 </html>
